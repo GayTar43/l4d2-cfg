@@ -1,0 +1,116 @@
+  ______________                   
+ / ___/ __/ ___/    _____ ________ 
+/ /__/ _// (_ / |/|/ / _ `/ __/ -_)
+\___/_/_ \___/|__,__/\_,_/_/  \__/ 
+     / /  (_) /____                
+    / /__/ / __/ -_)               
+   /____/_/\__/\__/                
+
+GRACIAS POR DESCARGAR MI AUTOEXEC 
+
+IMPORTANTE LEER TODO PARA NO PERDER NADA DE INFORMACION
+
+// Soporte //
+
+Si tienes algun problema o encontraste algun bug, puedes hacermelo saber a traves
+de la parte de los comentarios o mandar un mensaje en mi servidor de Discord!
+
+Con gusto te ayudare
+
+Igual si tienes alguna sugerencia o algun comando/script que quieras que agregue al autoexec
+lo hare sin problema ;)
+
+// Intrucciones //
+
+1.- Autoexec
+los archivos .cfg (autoexec, mandoplay y Rebinds) se deben de pasar a la carpeta llamada "cfg" esta es la ruta donde deben ir:
+\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\cfg
+Tambien puedes ir a Steam, biblioteca, darle click derecho al juego y despues a Administrar/Ver archivos locales
+Con solo copiar y pegar basta
+
+2.- Gameinfo
+Los dos archivos Gameinfo van en la carpeta anterior al de los "CFG", esta es su ruta:
+\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2
+Solo con copiar y pegar basta
+
+3.- Carpeta "Bones"
+Este paso es el mas facil, solo es copiar la carpeta en esta direccion:
+SteamLibrary\steamapps\common\Left 4 Dead 2
+Es una carpeta anterior a la de los Gameinfo
+Esta es necesaria para el funcionamiento del menu que mostre en el video
+Dentro de la carpeta encontraran otra carpeta y un archivo del formato .vpk
+La carpeta contiene los archivos necesarios para el menu, la deje libre por si
+quieren modificar el tercer menu
+
+// Preguntas y Respuestas //
+
+1.- ¿Es posible cambiar los binds del autoexec?
+¡Claro que se puede!, el problema aqui es que tiene un patron, desde el menu (que aqui pondremos de
+ejemplo el menu los scripts), al final contiene la lista de binds que se activaran, ahi puedes cambiar la
+letra por la que quieras, te recomiendo cambiar la letra en el menu para no tener problemas, despues de cambiarlo no
+deberias de tener problemas
+
+2.- Cuando entro a campaña no puedo jugar como superviviente ya que me sale esto "Presiona ? para jugar"
+Es un error ya conocido de mi autoexec, solo debes de escribir lo siguiente en la consola:
+"Fix" (sin las comillas) y con eso estaria listo, si el problema no esta arreglado, escribe lo siguiente:
+bind MOUSE1 +attack
+
+3.- ¿Por que ahora no tiene el menu para la tercera persona?
+Facil de responder, eso es porque el script de tercera persona es MUY grande para incluirlo (por el momento), al igual que tenia algunas inconsistencias y
+queremos mejorarlo para que sea funcional en el modo VS
+Cuando por fin este arreglado subiremos esa version en el servidor de Discord
+
+4.- ¿Puedo cambiar el nombre del "Name Spammer"?
+¡Claro que puedes!, solo consta de identificar los caracteres (en este ejemplo usaremos el name spammer de asteriscos), en este caso
+si quiero cambiar los asteriscos [******************] lo puedes hacer por cualquier otra cosa, por ejemplo:
+[************] a [////////////////]
+Puedes poner cualquier cosas, excepto caracteres especiales o tambien conocido como Unicode
+
+5.- ¿Puedo agregar mas nombres al Name Spammer?
+¡Claro que si!, solo que necesitan crear varios alias (o los necesarios) e incluir lo siguiente
+
+alias "ejemplo" "setinfo name Ejemplo"
+
+No deben de incluir espacios ya que asi no lo podra identificar
+
+Una vez creados, necesitas remplazar el nombre anterior y escribir el nombre del alias, y con eso estaria listo  
+
+6.- Que es "slam.cfg" y por que lo marca de color rojo en la consola
+Ese archivo esta relacionado al programa de audios que uso para el juego
+este se llama SLAM y lo inclui para los que lo usan
+si tu no usas ese programa, puedes eliminar el comando que esta en el menu principal, este se llama "exec slam"
+asi ya no te mostrara ese error
+
+7.- ¿Puedo cambiar los mensajes del menu?
+¡Claro!, Ahora los mensajes funcionan con aliases que se encuentran en el autoexec, puedes agregar mensajes y nombres, al final de cada "alias"
+se encuentra el comando: "say_team", despues de ese comando se debe de escribir el mensaje que quieras, por ejemplo:
+
+say_team PILDORAS!/PILLS!
+
+o se puede alternar con el comando "say", en este caso el mensaje sera para todos y no solo para el equipo, aqui un ejemplo
+
+say ._.XD
+
+Como igual te pudiste dar cuenta, en el autoexec hay mas alias que terminan con el comando "setinfo name"
+Este comando sirve para cambiar de nombre, en este caso es un poco mas complejo ya que no se admiten espacios (pon un guion en vez de un espacio) u caracteres especiales (unicode)
+Aqui te dejo unos ejemplos de eso
+
+Setinfo name Papu
+Setinfo name CFGware-User
+
+
+  /$$$$$$                                          /$$ /$$                   /$$              
+ /$$__  $$                                        |__/| $$                  | $$              
+| $$  \__/ /$$   /$$  /$$$$$$$  /$$$$$$$  /$$$$$$  /$$| $$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$ 
+|  $$$$$$ | $$  | $$ /$$_____/ /$$_____/ /$$__  $$| $$| $$__  $$ /$$__  $$|_  $$_/   /$$__  $$
+ \____  $$| $$  | $$|  $$$$$$ | $$      | $$  \__/| $$| $$  \ $$| $$$$$$$$  | $$    | $$$$$$$$
+ /$$  \ $$| $$  | $$ \____  $$| $$      | $$      | $$| $$  | $$| $$_____/  | $$ /$$| $$_____/
+|  $$$$$$/|  $$$$$$/ /$$$$$$$/|  $$$$$$$| $$      | $$| $$$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$$
+ \______/  \______/ |_______/  \_______/|__/      |__/|_______/  \_______/   \___/   \_______/
+                                                                                              
+                                                                                              
+                                                                                              
+Por favor suscribete, dale like al video y compartelo con tus amigos
+Eso me ayudaria mucho con el canal
+Yo soy Mr.Bones y de te deseo un buen dia, tarde o noche 
+¡Hasta luego!

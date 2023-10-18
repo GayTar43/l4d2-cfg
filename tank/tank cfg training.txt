@@ -1,0 +1,40 @@
+I wanted to get better at the Tank and I got tired of playing with horrible tanks.  So I created this.  Tank Practice config to practice rocks, haymakers, movement, punching, etc...  Works well and best of all no 3rd party mods.  
+
+How to install:
+1. Go to your cfg folder.  File path is probably this Program Files - Steam - steamapps - common - left 4 dead 2 - left 4 dead 2 - cfg
+
+2. (Highly recommended, but optional)  Create your own config file.  This way when you change all your binds, you can execute this config and everything will be ready when youre playing actual games. Just open the config file and save it as a different name. Make sure when you save as, add .cfg at the end of the file name, it will default to .txt which is no good. 
+
+3. Create a new .cfg file and add this.  Make sure when you save as, add .cfg at the end of the file name. 
+
+sv_cheats 1
+exec me.cfg
+%CHANGE LINE 2 to whatever your personal config is (step 2 thing, otherwise just delete this)
+map c11m1_greenhouse versus
+%I like practicing on dead air 1, but you can change to whatever map by changeing this line or manually typing in the map. google for l4d2 map names.
+sb_all_bot_game 1
+vs_max_team_switches 99
+sb_unstick 0
+sb_dont_shoot 1
+sb_stop 1
+god 1
+director_spectate_specials 1
+z_tank_rock_debug 1
+z_tank_throw_interval 1
+z_tank_attack_interval 1
+bind o "z_spawn tank"
+bind p "kick tank"
+bind g "sb_takecontrol louis"
+bind h "sb_takecontrol nick"
+bind v "z_spawn boomer"
+
+4. go to your listenserver cfg file and add this
+director_stop
+
+5. restart your game
+
+6. In developer console type exec "name of your config" and have fun.  (make sure you have developer console enabled, if not go to options and enable it)
+
+7.  If you start on survivor, leave the safe room then switch teams and spawn the tank.  If you start as infected, switch to survivor, leave the safe house.  If you dont leave the safe house, you can see the rock path.  If you spawn a tank as a survivor, it'll beat you up.  Thats why I added bind p kick tank.  
+
+I don't know if this is the most optimal way to script this, but it works.

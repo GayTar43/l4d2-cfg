@@ -6,12 +6,12 @@ EFES
 
 f1 vote yes
 f2 vote no
-f3 /////////
-f4 //////////
+f3  characters // personal
+f4 jpeg
 f5 server info 
 f6 open server browser
 f7
-f8
+f8 record fix // invis bitches -> zombies
 f9 call vote kick
 f10 3p shoulder
 f11 record stop // for invis SI
@@ -27,10 +27,10 @@ normal numbers
 4 slot
 5
 6
-7
-8
+7 t_lerp
+8 t_tick
 9 sm_damage // what is this
-0
+0 chat binds
 
 //////////////////////////////////////
 
@@ -38,24 +38,24 @@ mouse
 
 MOUSE1 attack; clear decals
 MOUSE2 attack2
-MOUSE3 zoom // personal ;3
-MWup
-mwDown
+MOUSE3  
+MWup zoom // personal ;3
+mwDown next inventory
 
 ////////////////////////////////
 
 misc 
 
-/ model fov toggle
-* fov desiresd toogle
--
-+
-.
+keypad\ model fov toggle
+keypad* fov desiresd toogle
+keypad-
+keypad+
+keypad.
 
 UP ARROW    say READY
-down arrow SAY Nr 
-left arrow say 1s
-right arrow 1m
+down arrow  SAY Nr 
+left arrow  say 1s
+right arrow say 1m
 
 //////////////////////////////////
 qwery
@@ -65,34 +65,33 @@ a move back
 s move left
 d move right
 
-
 q previous weapon
 e interact
 r reload
 f fleshlight
 t spray
 
-g 
+g haymaker // tank
 z voice comands 1
 x voice comands 1
 c voice comands 1
 
 y chat
 u team chat
-i
+i admin menu
 o
 p
 
-h
-j
+h jump haymaker // tank
+j show your hp as ZOMBIEEEEEEEEEEEEEE
 k
 l
 ç
 
 v +left
 b +right 
-n
-m
+n jump attack //tank
+m jump rock //tank
 
 
 ´
@@ -103,7 +102,7 @@ m
 
 ,
 .
-;
+; spin BOT
 /
 
 alt         walk

@@ -87,8 +87,8 @@ QUERY
 
  h jump haymaker // tank
  j show your hp as ZOMBIEEEEEEEEEEEEEE
- k
- l
+ k haymaker long arm
+ l jump attack long arm
  ç
 
  v +left

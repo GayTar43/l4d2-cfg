@@ -16,7 +16,7 @@ f1 to f12
  f4 jpeg
  f5 server info 
  f6 open server browser
- f7 
+ f7 reload config
  f8 record fix // invis bitches -> zombies
  f9 call vote kick
  f10 3p shoulder
@@ -82,7 +82,7 @@ QUERY
  y chat
  u team chat
  i admin menu
- o
+ o jump haymaker long arm
  p
 
  h jump haymaker // tank

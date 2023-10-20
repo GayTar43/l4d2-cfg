@@ -37,7 +37,7 @@ Numbers
  9 sm_damage // what is this
  0 chat binds
 
-//////////////////////////////////////
+////////////////////////////////
 Mouse
 
  MOUSE1 attack; clear decals
@@ -102,7 +102,7 @@ QUERY
  ~
  ] 
 
- , spin like a bot
+ , 
  .
  ; 
  /
